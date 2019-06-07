@@ -56,12 +56,11 @@ class _OtsuPyramid(object):
     def load_image(self, im, bins=256):
         if not type(im) == np.ndarray:
             raise ValueError(
-                'must be passed numpy array. Got ' + str(type(im)) +
-                ' instead'
+                'numpy array.' + str(type(im))
             )
         if im.ndim == 3:
             raise ValueError(
-                'image must be greyscale (and single value per pixel)'
+                'greyscale'
             )
         self.im = im
         hist, ranges = np.histogram(im, bins)

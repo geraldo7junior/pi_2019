@@ -82,7 +82,7 @@ def main():
     cli_args = sys.argv[1:]
 
     if len(cli_args) != 1:
-        print("python projeto_pi.py image_path")
+        print("python segmentation.py image_path")
         sys.exit(1)
 
     img_path = cli_args[0]
