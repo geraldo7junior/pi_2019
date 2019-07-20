@@ -1,11 +1,5 @@
-# pi_2019
-Projeto - Processamento de Imagens - Segmentação
+# Deep learning e Segmentação de Imagens
 
 Título:
 
-Uma Proposta para a Detecção de Plantas Daninhas em Mudas de Gallesia Integrifólia com Métodos de Processamento de Imagens
-
-Equipe:
-
-Geraldo Gomes e 
-Saulo Albuquerque
+Deep learning e Segmentação de Imagens como Ferramentas para o Ensino de Práticas de Cultivo Florestal e Detecção de Plantas Daninhas
